@@ -132,6 +132,7 @@ CoinEntry* coinDispatcher(TWCoinType coinType) {
         case TWCoinTypePOANetwork: entry = &ethereumDP; break;
         case TWCoinTypeThunderToken: entry = &ethereumDP; break;
         case TWCoinTypeTomoChain: entry = &ethereumDP; break;
+        case TWCoinTypeTomoChainTestNet: entry = &ethereumDP; break;
         case TWCoinTypeSmartChainLegacy: entry = &ethereumDP; break;
         case TWCoinTypeSmartChain: entry = &ethereumDP; break;
         case TWCoinTypeDecred: entry = &decredDP; break;

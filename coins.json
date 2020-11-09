@@ -1161,6 +1161,28 @@
     }
   },
   {
+    "id": "tomochaintestnet",
+    "name": "TomoChainTestNet",
+    "coinId": 900,
+    "symbol": "TOMO",
+    "decimals": 18,
+    "blockchain": "Ethereum",
+    "derivationPath": "m/44'/900'/0'/0/0",
+    "curve": "secp256k1",
+    "publicKeyType": "secp256k1Extended",
+    "explorer": {
+      "url": "https://scan.testnet.tomochain.com",
+      "txPath": "/txs/",
+      "accountPath": "/address/"
+    },
+    "info": {
+      "url": "https://tomochain.com",
+      "client": "https://github.com/tomochain/tomochain",
+      "clientPublic": "https://rpc.testnet.tomochain.com",
+      "clientDocs": "https://github.com/ethereum/wiki/wiki/JSON-RPC"
+    }
+  },
+  {
     "id": "thundertoken",
     "name": "Thunder Token",
     "coinId": 1001,

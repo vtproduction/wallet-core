@@ -44,6 +44,7 @@ TEST(Coin, DeriveAddress) {
     EXPECT_EQ(TW::deriveAddress(TWCoinTypeTezos, privateKey), "tz1gcEWswVU6dxfNQWbhTgaZrUrNUFwrsT4z");
     EXPECT_EQ(TW::deriveAddress(TWCoinTypeThunderToken, privateKey), "0x9d8A62f656a8d1615C1294fd71e9CFb3E4855A4F");
     EXPECT_EQ(TW::deriveAddress(TWCoinTypeTomoChain, privateKey), "0x9d8A62f656a8d1615C1294fd71e9CFb3E4855A4F");
+    EXPECT_EQ(TW::deriveAddress(TWCoinTypeTomoChainTestNet, privateKey), "0x9d8A62f656a8d1615C1294fd71e9CFb3E4855A4F");
     EXPECT_EQ(TW::deriveAddress(TWCoinTypeTron, privateKey), "TQLCsShbQNXMTVCjprY64qZmEA4rBarpQp");
     EXPECT_EQ(TW::deriveAddress(TWCoinTypeVeChain, privateKey), "0x9d8A62f656a8d1615C1294fd71e9CFb3E4855A4F");
     EXPECT_EQ(TW::deriveAddress(TWCoinTypeWanchain, privateKey), "0x9D8a62F656A8D1615c1294FD71E9cfB3e4855a4f");

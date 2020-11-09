@@ -64,6 +64,7 @@ enum TWCoinType {
     TWCoinTypeThunderToken = 1001,
     TWCoinTypeNEO = 888,
     TWCoinTypeTomoChain = 889,
+    TWCoinTypeTomoChainTestNet = 900,
     TWCoinTypeTron = 195,
     TWCoinTypeVeChain = 818,
     TWCoinTypeViacoin = 14,
